@@ -21,4 +21,6 @@
   <ItemGroup>
     <ProjectReference Include="..\IoTEdgeModule1\IoTEdgeModule1.csproj" />
   </ItemGroup>
+  <Import Project="..\packages\Microsoft.VisualStudio.Azure.IoT.Edge.MSBuildTasks.0.0.1\build\AzureIoTEdgeProject.Build.targets" />
+  <Import Project="..\packages\Microsoft.VisualStudio.Azure.IoT.Edge.MSBuildTasks.0.0.1\build\AzureIoTEdgeProject.Build.props" />
 </Project>
